@@ -1,0 +1,27 @@
+{
+  "name": "fcc-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+"start":"node server.js",
+"server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clickingmouse/FCC-Starter-001.git"
+  },
+  "author": "Kevin K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clickingmouse/FCC-Starter-001/issues"
+  },
+  "homepage": "https://github.com/clickingmouse/FCC-Starter-001#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
